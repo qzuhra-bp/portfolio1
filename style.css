@@ -1,0 +1,82 @@
+.logo{
+    color: blue;
+  
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    text-decoration: none;
+    list-style:none;
+    
+}
+
+header{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.avatarka{
+    border-radius: 50%;
+}
+.main{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+
+.avatarka img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 9px dotted white;
+}
+.main h2{
+    color: aliceblue;
+}
+.port button{
+   border-radius: 20px;
+   box-shadow: 2px 2px 3px 1px;
+}
+ .port button h3{
+    color: blue;
+
+}
+
+
+.card_one,.card_two,.card_three{
+    width: 300px;
+    height: 200px;
+    border: px solid rgba(0, 0, 0, 0.999);
+    box-shadow:2px 3px 1px 1px;
+    border-radius: 10px;
+    background-color: white;
+
+    
+}
+.dolbor{
+    text-align: center;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+   
+}
+.trs{
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.dolbor h2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
